@@ -7,6 +7,6 @@ def lrtcount(str1):
         else:
             ic[n] = 1
     return ic  
-str1=str(input("enter the string"))
+str1=str(input("Please enter astring"))
 sol=lrtcount(str1)
 print(sol)
