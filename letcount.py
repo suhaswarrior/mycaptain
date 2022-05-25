@@ -9,4 +9,6 @@ def lrtcount(str1):
     return ic  
 str1=str(input("Please enter astring"))
 sol=lrtcount(str1)
+sol.sort()
 print(sol)
+
